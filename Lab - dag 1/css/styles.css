@@ -1,0 +1,29 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+div {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.cov {
+    object-fit:cover;
+}
+
+.con {
+    object-fit:contain;
+}
+
+.pos {
+    object-fit:cover;
+    object-position:25%;
+}

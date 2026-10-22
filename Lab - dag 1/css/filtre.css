@@ -1,0 +1,57 @@
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+section {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+div {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.saturate {
+    filter: saturate(500%);
+}
+
+.brightness {
+    filter: brightness(200%);
+}
+
+.contrast {
+    filter:contrast(70%);
+}
+
+.grayscale {
+    filter:grayscale(70%);
+}
+
+.sepia {
+    filter:sepia(40%);
+}
+
+.invert {
+    filter:invert(30%);
+}
+
+.opacity {
+    filter:opacity(75%);
+}
+
+.hue {
+    filter:hue-rotate(90deg);
+}
+
+.blur {
+    filter:blur(3px);
+}
+
+.drop {
+    filter:drop-shadow(50px 50px 10px rgba(0, 0, 0, 0.5));
+}

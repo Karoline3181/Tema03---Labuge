@@ -1,0 +1,29 @@
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+section {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 10rem;
+}
+
+div {
+    width: 100%;
+    border: 1px solid rgb(254, 252, 252);
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.mindre {
+    transform:scale(50%) translateX(-45px);
+}
+
+.større {
+    transform:scale(150%);
+}
